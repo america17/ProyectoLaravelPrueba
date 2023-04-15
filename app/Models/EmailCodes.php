@@ -8,6 +8,4 @@ use Illuminate\Database\Eloquent\Model;
 class EmailCodes extends Model
 {
     use HasFactory;
-
-    protected $table = 'email';
 }

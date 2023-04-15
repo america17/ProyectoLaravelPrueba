@@ -12,30 +12,31 @@
     <style>
         body {
             background-color: rgb(2, 0, 36);
-            background-color: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 20%, rgba(40, 40, 152, 1) 42%, rgba(78, 78, 173, 1) 71%);
+            background-color: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(118, 117, 178, 1) 32%, rgba(141, 140, 231, 1) 42%, rgba(181, 181, 255, 1) 54%, rgba(165, 165, 255, 1) 89%);
         }
+
         #txt {
-            color: gainsboro;
+            color:gainsboro;
         }
     </style>
 </head>
 
-<body>
+<body style="background-color: darkslateblue;">
     <div>
-        <div id="txt" style="position: absolute; top: 43%; left: 50%; transform: translate(-50%, -50%);">
+        <div id="txt" style="position: absolute; top: 10%; left: 50%; transform: translate(-50%, -50%);">
             <h1>El correo se ha enviado con éxito</h1>
         </div>
-        <div id="txt" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+        <div id="txt" style="position: absolute; top: 18%; left: 50%; transform: translate(-50%, -50%);">
             <h3>Revisa tu bandeja para poder acceder</h3>
         </div>
-        <div style="position: absolute; top: 60%; left: 50%; transform: translate(-50%, -50%);">
-            <img src="/resources/views/img/correo.png" alt="">
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+            <img src="https://images.vexels.com/media/users/3/136340/isolated/preview/74ac661d8216442ae469efb39c9584dc-icono-de-mensaje-de-correo.png" alt="">
         </div>
-        <div style="position: absolute; top: 95%; left: 50%; transform: translate(-50%, -50%); color:#a5a5ff;">
-            <h5>Ya puedes cerrar esta pestaña</h5>
+        <div id="txt" style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%);">
+            <h5>Puedes cerrar esta ventana</h5>
         </div>
 
-        <img src="/resources/views/img/correo.png" alt="">
+        <img src="/resources/views/img/Correo.png" alt="">
     </div>
 </body>
 
